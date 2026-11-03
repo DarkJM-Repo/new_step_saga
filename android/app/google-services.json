@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "418918050940",
+    "project_id": "step-saga",
+    "storage_bucket": "step-saga.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418918050940:android:c0b0654ea2d67b25aeedf9",
+        "android_client_info": {
+          "package_name": "com.example.new_step_saga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0n3_mho2uhqIJoPkuaxNPwW6fPmoj44s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418918050940:android:aca0b5420445ae32aeedf9",
+        "android_client_info": {
+          "package_name": "com.example.step_saga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0n3_mho2uhqIJoPkuaxNPwW6fPmoj44s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418918050940:android:6384c459c1758254aeedf9",
+        "android_client_info": {
+          "package_name": "com.example.step_saga_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0n3_mho2uhqIJoPkuaxNPwW6fPmoj44s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
