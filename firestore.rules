@@ -1,0 +1,32 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // Player profiles: any signed-in user can read (leaderboards),
+    // but only the owner can create or change their own profile.
+    match /players/{uid} {
+      allow read: if request.auth != null;
+      allow create, update: if request.auth != null && request.auth.uid == uid;
+      allow delete: if false;
+
+      // Owned items (bought in the marketplace): private to the owner.
+      match /inventory/{itemId} {
+        allow read, write: if request.auth != null && request.auth.uid == uid;
+      }
+    }
+
+    // Marketplace items: readable by signed-in players, edited only from the
+    // Firebase console (or a trusted admin backend), not from the app.
+    match /marketplace/{itemId} {
+      allow read: if request.auth != null;
+      allow write: if false;
+    }
+    // Leaderboard documents: readable by any signed-in user;
+    // each player can only write/update their own entry.
+    match /leaderboards/{boardId}/entries/{uid} {
+      allow read: if request.auth != null;
+      allow create, update: if request.auth != null && request.auth.uid == uid;
+      allow delete: if false;
+    }
+  }
+}

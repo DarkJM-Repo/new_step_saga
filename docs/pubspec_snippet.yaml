@@ -1,0 +1,8 @@
+# Under the existing `flutter:` section of pubspec.yaml.
+# NOTE: both folders must be listed, Flutter does not include sub-folders.
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/images/gear/

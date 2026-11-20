@@ -1,1 +1,29 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"step-saga","appId":"1:418918050940:android:c0b0654ea2d67b25aeedf9","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"step-saga","configurations":{"android":"1:418918050940:android:c0b0654ea2d67b25aeedf9","ios":"1:418918050940:ios:5aaefdd66f633a8caeedf9","macos":"1:418918050940:ios:5aaefdd66f633a8caeedf9","web":"1:418918050940:web:1a3dda74a0b04b1aaeedf9","windows":"1:418918050940:web:e9143dd3e4dbb460aeedf9"}}}}}}
+{
+  "firestore": {
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "step-saga",
+          "appId": "1:418918050940:android:c0b0654ea2d67b25aeedf9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "step-saga",
+          "configurations": {
+            "android": "1:418918050940:android:c0b0654ea2d67b25aeedf9",
+            "ios": "1:418918050940:ios:5aaefdd66f633a8caeedf9",
+            "macos": "1:418918050940:ios:5aaefdd66f633a8caeedf9",
+            "web": "1:418918050940:web:1a3dda74a0b04b1aaeedf9",
+            "windows": "1:418918050940:web:e9143dd3e4dbb460aeedf9"
+          }
+        }
+      }
+    }
+  }
+}
